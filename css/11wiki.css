@@ -1,0 +1,128 @@
+/* 기본 사이트 서식 */
+
+.ffxi-template {
+    margin: 0 100px;
+    padding: 0 15px
+}
+
+.ffxi-footer {
+    padding: 50px 100px;
+    margin: 50px 0 0
+}
+
+.ffxi-text::selection {
+    color: #f8f9fa;
+    font-weight: bold;
+    background-color: #212529;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Asta+Sans:wght@300..800&family=Lato:wght@400;700&family=Murecho:wght@100..900&display=swap');
+
+/* 영문 폰트 Lato */
+
+.font-en-r {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.font-en-b {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+/* 일본어 폰트 Murecho */
+
+.font-jp-r {
+  font-family: "Murecho", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.font-jp-b {
+  font-family: "Murecho", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+/* 한글 폰트 Asta Sans */
+
+.font-kr-r {
+  font-family: "Asta Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.font-kr-b {
+  font-family: "Asta Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+/* 폰트 크기 관련 */
+
+.font-xl {
+    font-size: 24px;
+}
+
+.font-lg {
+    font-size: 20px;
+}
+
+.font-md {
+    font-size: 16px;
+}
+
+.font-sm {
+    font-size: 15px;
+}
+
+.font-xs {
+    font-size: 13.5px;
+}
+
+/* 폰트 강조 */
+
+.text-readme {
+    text-decoration: underline;
+    padding: 2px;
+}
+
+/* 구분선 - 일반 */
+
+.width-line {
+    display: block;
+    width: 100%;
+    height: 0.2px;
+    background-color: #dddddd;
+    margin: 25px auto;
+}
+
+/* 폰트 커스텀 색상 */
+
+.text-gray {
+    color: #bbbbbb;
+}
+
+/* 이미지 사이즈 조정 */
+
+.ffxi-img-100 {
+    display: block;
+    width: 90%;
+    margin: auto;
+}
+
+/* 콜아웃 */
+
+.call-out {
+    margin: 30px 45px;
+    padding: 25px 40px;
+    background-color: #fafafa;
+    border: 2px solid #dddddd;
+    border-radius: 20px;
+}
