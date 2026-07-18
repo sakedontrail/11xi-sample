@@ -16,67 +16,81 @@
 </head>
 <body>
 
-    <header>
-        <div class="container-fluid bg-light navbar navbar-expand-lg px-5 ffxi-text">
-            <a class="navbar-brand" href="./index.html" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-title="메인 페이지로"><img src="./icon/icon_11wiki.png" width="36"></a>
+    <!-- 상단 메뉴 바 -->
+    <header class="ffxi-text sticky-top">
+        <div class="container-fluid bg-light navbar navbar-expand-lg px-5 py-1">
+            <a class="navbar-brand ms-2 mb-2 mb-lg-0" href="./index.html" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-title="메인 페이지로"><img src="./icon/icon_11wiki.png" width="40px"></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarFfxi" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarFfxi">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0 font-kr-b">
-                    <li class="nav-item px-2"><a href="" class="nav-link">카테고리1</a></li>
-                    <li class="nav-item px-2"><a href="" class="nav-link">카테고리2</a></li>
-                    <li class="nav-item px-2"><a href="" class="nav-link">카테고리3</a></li>
+                <ul class="navbar-nav me-auto mb-3 mb-lg-0">
+                    <li class="nav-item px-1"><a href="" class="nav-link font-kr-b">목차 보기</a></li>
+                    <li class="nav-item px-1"><a href="" class="nav-link font-kr-b">FF11 시작하기</a></li>
+                    <li class="nav-item px-1 dropdown"><a href="" class="nav-link dropdown-toggle font-kr-b" role="button" data-bs-toggle="dropdown" aria-expanded="false">시나리오 미션 공략</a>
+                        <ul class="dropdown-menu bg-light">
+                            <li><a class="dropdown-item drop-hover font-kr-r" href="#">메인 시나리오</a></li>
+                            <li><a class="dropdown-item drop-hover font-kr-r" href="#">서브 시나리오</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item px-2"><a href="" class="nav-link font-kr-b">기타 가이드와 번역</a></li>
                 </ul>
                 <form class="d-flex" role="search">
                     <input class="me-2 px-4 rounded-pill font-kr-r border-1 font-sm" type="search" placeholder="검색하기" aria-label="검색">
-                    <button type="button" class="btn btn-outline-dark font-kr-b px-3 rounded-pill font-md border-2" type="submit">검색</button>
+                    <button type="button" class="btn btn-sm btn-outline-dark font-kr-b px-3 rounded-pill font-md border-2" type="submit">검색</button>
                 </form>
             </div>
         </div>
     </header>
     
-    <div class="ffxi-template ffxi-text">
-        <main>
-            <div class="row">
-                <div class="container">
-                    <h2 class="font-kr-b mt-4 mb-5 mx-5">[KR] 파이널 판타지 11 가이드 모음</h2>
-                    <img src="./img/eleanor-wright-ffxismall.jpg" class="ffxi-img-100 my-3">
-                    <div class="call-out">
-                        <p class="font-xl font-kr-b"><i class="bi bi-chat-left-text-fill"></i>&nbsp;이 사이트는...</p>
-                        <p class="font-md font-kr-r">
-                            한국어로 된 파이널 판타지 11 공략이 사혼의 구슬조각 마냥 흩어져 있어 찾기 불편했던 나머지 한 번에 모아볼 수 있도록 정리한 사이트입니다.
-                            <br>
-                            파이널 판타지 11을 한국에서 플레이 하고자 하는 사람들에게 모쪼록 도움이 되길 바랍니다.
-                        </p>
-                    </div>
-                    <div class="my-1 mx-5">
-                        <p class="font-xl font-kr-b"><i class="bi bi-arrow-right-square-fill"></i>&nbsp;목차</p>
-                        <p class="font-md font-kr-r">
-                            이 아래부터는 스크롤을 늘리기 위한 단락입니다. 신경쓰지마세요~
-                            <br>
-                            <div class="width-line"></div>
-                            <br>
-                            <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam repellat distinctio quia quidem atque quis quasi, recusandae, deleniti similique voluptatem, nemo cupiditate magnam iure voluptates? Minima aliquid adipisci illo quisquam.</span>
-                            <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam repellat distinctio quia quidem atque quis quasi, recusandae, deleniti similique voluptatem, nemo cupiditate magnam iure voluptates? Minima aliquid adipisci illo quisquam.</span>
-                            <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam repellat distinctio quia quidem atque quis quasi, recusandae, deleniti similique voluptatem, nemo cupiditate magnam iure voluptates? Minima aliquid adipisci illo quisquam.</span>
-                            <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam repellat distinctio quia quidem atque quis quasi, recusandae, deleniti similique voluptatem, nemo cupiditate magnam iure voluptates? Minima aliquid adipisci illo quisquam.</span>
-                            <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam repellat distinctio quia quidem atque quis quasi, recusandae, deleniti similique voluptatem, nemo cupiditate magnam iure voluptates? Minima aliquid adipisci illo quisquam.</span>
-                            <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam repellat distinctio quia quidem atque quis quasi, recusandae, deleniti similique voluptatem, nemo cupiditate magnam iure voluptates? Minima aliquid adipisci illo quisquam.</span>
-                            <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam repellat distinctio quia quidem atque quis quasi, recusandae, deleniti similique voluptatem, nemo cupiditate magnam iure voluptates? Minima aliquid adipisci illo quisquam.</span>
-                            <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam repellat distinctio quia quidem atque quis quasi, recusandae, deleniti similique voluptatem, nemo cupiditate magnam iure voluptates? Minima aliquid adipisci illo quisquam.</span>
-                            <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam repellat distinctio quia quidem atque quis quasi, recusandae, deleniti similique voluptatem, nemo cupiditate magnam iure voluptates? Minima aliquid adipisci illo quisquam.</span>
-                            <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam repellat distinctio quia quidem atque quis quasi, recusandae, deleniti similique voluptatem, nemo cupiditate magnam iure voluptates? Minima aliquid adipisci illo quisquam.</span>
-                        </p>
-                    </div>
+
+    <!-- 페이지 본문 -->
+    <main class="ffxi-template ffxi-text">
+        <div class="container">
+            <div>
+                <h2 class="font-kr-b mt-4 mb-5 mx-5">[KR] 파이널 판타지 11 가이드 모음</h2>
+                <img src="./img/eleanor-wright-ffxismall.jpg" class="ffxi-img-100 my-3">
+            </div>
+            <div class="call-out"> <!--콜아웃-->
+                <p class="font-xl font-kr-b"><i class="bi bi-chat-left-text-fill"></i>&nbsp;이 사이트는...</p>
+                <p class="font-md font-kr-r">
+                    한국어로 된 파이널 판타지 11 공략이 사혼의 구슬조각 마냥 흩어져 있어 찾기 불편했던 나머지 한 번에 모아볼 수 있도록 정리한 사이트입니다.
+                    <br>
+                    파이널 판타지 11을 한국에서 플레이 하고자 하는 사람들에게 모쪼록 도움이 되길 바랍니다.
+                </p>
+            </div>
+            <div class="ffxi-updated"> <!--업데이트 내역-->
+                <p class="font-xl font-kr-b"><i class="bi bi-hand-index-thumb-fill"></i>&nbsp;최신 업데이트</p>
+                <div>
+                    <p class="font-kr-b font-lg mb-1">공략 관련</p>
+                    <p class="font-kr-r font-md">2026.06.19. | 삼국미션 랭크6 ~ 랭크9 미션의 공략이 추가되었습니다.</p>
+                    <a href="" class="btn btn-sm btn-brown rounded-pill px-3 font-kr-r font-sm border-brown text-brown border-1">공략 업데이트 내역 보러가기</a>
+                </div>
+                <div class="width-line-brown"></div>
+                <div>
+                    <p class="font-kr-b font-lg mb-1">사이트 관련</p>
+                    <p class="font-kr-r font-md">2026.00.00. | 기존 Notion 문서에서 본 사이트로 이전이 완료되었습니다.</p>
+                    <a href="" class="btn btn-sm btn-brown rounded-pill px-3 font-kr-r font-sm border-brown text-brown border-1">사이트 업데이트 내역 보러가기</a>
                 </div>
             </div>
-        </main>
-    </div>
+            <div class="width-line-m-wide"></div>
+            <div class="my-1 mx-5">
+                <p class="mb-4"><span class="font-xl font-kr-b"><i class="bi bi-arrow-right-square-fill"></i>&nbsp;목차</span><span class="font-sm font-kr-r text-darkgray">&nbsp;&nbsp;&nbsp;제목을 클릭하면 해당 페이지로 이동합니다.</span></p>
+                <div>
+                    <a href="" class="link-none"><span class="ffxi-wiki font-lg font-kr-b">파이널 판타지 11 시작하기</span><span class="font-xs font-kr-r">&nbsp;&nbsp;― 계정 생성, 정액제 구매, 게임 설치 등 기본적인 준비 과정을 다룹니다.</span></a>
+                    <a href="" class="link-none"><span class="ffxi-wiki font-lg font-kr-b">메인 시나리오 미션 공략</span><span class="font-xs font-kr-r">&nbsp;&nbsp;― 계정 생성, 정액제 구매, 게임 설치 등 기본적인 준비 과정을 다룹니다.</span></a>
+                    <a href="" class="link-none"><span class="ffxi-wiki font-lg font-kr-b">서브 시나리오 미션 공략</span><span class="font-xs font-kr-r">&nbsp;&nbsp;― 각계정 생성, 정액제 구매, 게임 설치 등 기본적인 준비 과정을 다룹니다.</span></a>
+                    <a href="" class="link-none"><span class="ffxi-wiki font-lg font-kr-b">기타 가이드와 번역</span><span class="font-xs font-kr-r">&nbsp;&nbsp;― 각계정 생성, 정액제 구매, 게임 설치 등 기본적인 준비 과정을 다룹니다.</span></a>
+                </div>
+             </div>
+        </div>
+    </main>
 
-    <footer>
-        <div class="mt-3 ffxi-text">
-            <button class="btn btn-outline-dark border-2 rounded-pill font-kr-b d-flex mx-auto mb-3 py-1 px-3"><i class="bi bi-house-door-fill"></i>&nbsp;메인 페이지로 돌아가기</button>
+
+    <!-- 하단부 고정 -->
+    <footer class="ffxi-text">
+        <div class="footer-margin-t">
+            <button class="btn btn-outline-dark border-2 rounded-pill font-kr-b font-md d-block mx-auto mb-3 py-1 px-3"><i class="bi bi-house-door-fill"></i>&nbsp;메인 페이지로 돌아가기</button>
             <div class="bg-light ffxi-footer">
                 <p>
                     <span class="font-sm font-kr-b">본 사이트에 관련된 문의 혹은 요청은 <span class="font-sm font-en-b text-readme">cry5741.g4rd3n@gmail.com</span>로 연락을 남겨주세요.</span>
@@ -85,7 +99,7 @@
                 </p>
                 <div class="width-line"></div>
                 <p>
-                        <span class="font-xs font-kr-b">Ⓒ SQUARE ENIX</span>&nbsp;&nbsp;<span class="font-xs font-kr-r">본 문서에 사용된 모든 이미지와 스크립트의 저작권자는 스퀘어 에닉스이며 비영리적 목적으로만 사용됩니다.</span>
+                        <span class="font-xs font-en-b">Ⓒ SQUARE ENIX</span>&nbsp;&nbsp;<span class="font-xs font-kr-r">공략에 사용된 모든 이미지와 스크립트의 저작권자는 스퀘어 에닉스입니다.<br>본 사이트에서는 해당 소스들을 비영리적 목적으로만 사용하고 있습니다.</span>
                         <br>
                         <span class="font-xs font-kr-r">공략의 이해를 돕기 위해 사용된 지도 이미지는 영문 파이널판타지 11 위키인 bg-wiki에서 가져왔으며, 유저 커뮤니티에서 편집된 것입니다. 이미지의 삭제나 편집 등을 원하실 경우 메일로 연락주세요.</span>
                 </p>

@@ -15,7 +15,6 @@
     font-weight: bold;
     background-color: #212529;
 }
-
 @import url('https://fonts.googleapis.com/css2?family=Asta+Sans:wght@300..800&family=Lato:wght@400;700&family=Murecho:wght@100..900&display=swap');
 
 /* 영문 폰트 Lato */
@@ -24,12 +23,14 @@
   font-family: "Lato", sans-serif;
   font-weight: 400;
   font-style: normal;
+  letter-spacing: 0;
 }
 
 .font-en-b {
   font-family: "Lato", sans-serif;
   font-weight: 700;
   font-style: normal;
+  letter-spacing: 0;
 }
 
 /* 일본어 폰트 Murecho */
@@ -39,6 +40,7 @@
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
+  letter-spacing: 0;
 }
 
 .font-jp-b {
@@ -46,6 +48,7 @@
   font-optical-sizing: auto;
   font-weight: 700;
   font-style: normal;
+  letter-spacing: 0;
 }
 
 /* 한글 폰트 Asta Sans */
@@ -55,6 +58,7 @@
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
+  letter-spacing: 0;
 }
 
 .font-kr-b {
@@ -62,6 +66,7 @@
   font-optical-sizing: auto;
   font-weight: 700;
   font-style: normal;
+  letter-spacing: 0;
 }
 
 /* 폰트 크기 관련 */
@@ -93,6 +98,13 @@
     padding: 2px;
 }
 
+/* 서브 메뉴 호버 */
+
+.drop-hover:hover {
+    background-color: #212529;
+    color: #f8f9fa;
+}
+
 /* 구분선 - 일반 */
 
 .width-line {
@@ -103,10 +115,53 @@
     margin: 25px auto;
 }
 
+.width-line-m-wide {
+    display: block;
+    width: 92.5%;
+    height: 0.2px;
+    background-color: #dddddd;
+    margin: 50px auto;
+}
+
+/* 구분선 - 갈색 */
+
+.width-line-brown {
+    display: block;
+    width: 100%;
+    height: 0.2px;
+    background-color: rgba(107, 64, 50, 0.2);
+    margin: 25px auto;
+}
+
 /* 폰트 커스텀 색상 */
 
 .text-gray {
     color: #bbbbbb;
+}
+
+.text-darkgray {
+    color: #777777;
+}
+
+.text-brown {
+    color: #6b4032;
+}
+
+/* 테두리 커스텀 색상 */
+
+.border-brown {
+    border-color: #6b4032;
+}
+
+/* 버튼 커스텀 */
+
+.btn-brown {
+    background-color: none;
+}
+
+.btn-brown:hover {
+    background-color: #6b4032;
+    color: #fffdf5;
 }
 
 /* 이미지 사이즈 조정 */
@@ -125,4 +180,47 @@
     background-color: #fafafa;
     border: 2px solid #dddddd;
     border-radius: 20px;
+}
+
+/* 최신 업데이트 */
+
+.ffxi-updated {
+    margin: 30px 45px;
+    padding: 25px 40px;
+    background-color: #fffdf5;
+    border: 2px solid #ffddbf;
+    border-radius: 20px;
+    color: #6b4032;
+}
+
+/* 목차 카운터 */
+
+body {
+    counter-reset: my-sec-counter;
+}
+
+.ffxi-wiki::before {
+    counter-increment: my-sec-counter;
+    content: counter(my-sec-counter) ". ";
+}
+
+/* 링크 서식 지우기 & 목차 호버 */
+
+.link-none {
+    text-decoration: none;
+    color: #212529;
+    display: block;
+    padding: 7.5px 15px 5px;
+    margin: 5px 0;
+}
+
+.link-none:hover {
+    background-color: #fff2d2;
+    color: #6b4032;
+}
+
+/* 하단부 상단 마진 */
+
+.footer-margin-t {
+    margin: 80px 0 0;
 }
