@@ -384,7 +384,7 @@ body {
 
 }
 
-/* 와이드 모니터 */
+/* 와이드 모니터 등 */
 @media screen and (min-width:1440px) {
     
     .widscreen {
