@@ -163,10 +163,17 @@
 
 /* 이미지 사이즈 조정 */
 
-.ffxi-img-100 {
+.ffxi-img-90 {
     display: block;
     width: 90%;
     margin: auto;
+}
+
+.ffxi-img-98 {
+    display: block;
+    width: 98%;
+    margin: auto;
+    border-radius: 20px;
 }
 
 /* 콜아웃 */
@@ -214,6 +221,10 @@ body {
 .link-none:hover {
     background-color: #fff2d2;
     color: #6b4032;
+}
+
+.link-none-btn {
+    text-decoration: none;
 }
 
 /* 하단부 상단 마진 */
