@@ -227,6 +227,13 @@ body {
     text-decoration: none;
 }
 
+/* 본문 텍스트 박스 */
+
+.ffxi-guide {
+    width: 80%;
+    padding: 15px 20px;
+}
+
 /* 하단부 상단 마진 */
 
 .footer-margin-t {
@@ -260,7 +267,6 @@ body {
 }
 
 /* 태블릿 대응 */
-
 @media screen and (max-width:1200px) {
 
     /* 여백 */
@@ -310,10 +316,16 @@ body {
         font-size: 13px;
     }
 
+    /* 본문 텍스트 박스 */
+
+    .ffxi-guide {
+        width: 90%;
+        padding: 2.5px 15px;
+    }
+
 }
 
 /* 모바일 대응 */
-
 @media screen and (max-width:665px) {
 
     /* 여백 */
@@ -361,6 +373,13 @@ body {
 
     .font-xs {
         font-size: 14px;
+    }
+
+    /* 본문 텍스트 박스 */
+
+    .ffxi-guide {
+        width: 95%;
+        padding: 0 15px;
     }
 
 }
