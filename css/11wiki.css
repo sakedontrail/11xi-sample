@@ -1,20 +1,13 @@
 /* 기본 사이트 서식 */
 
-.ffxi-template {
-    margin: 0 100px;
-    padding: 0 15px
-}
-
-.ffxi-footer {
-    padding: 50px 100px;
-    margin: 50px 0 0
-}
-
 .ffxi-text::selection {
     color: #f8f9fa;
     font-weight: bold;
     background-color: #212529;
 }
+
+/* 폰트 임포트 */
+
 @import url('https://fonts.googleapis.com/css2?family=Asta+Sans:wght@300..800&family=Lato:wght@400;700&family=Murecho:wght@100..900&display=swap');
 
 /* 영문 폰트 Lato */
@@ -24,6 +17,7 @@
   font-weight: 400;
   font-style: normal;
   letter-spacing: 0;
+  word-spacing: 0;
 }
 
 .font-en-b {
@@ -31,6 +25,7 @@
   font-weight: 700;
   font-style: normal;
   letter-spacing: 0;
+  word-spacing: 0;
 }
 
 /* 일본어 폰트 Murecho */
@@ -41,6 +36,7 @@
   font-weight: 400;
   font-style: normal;
   letter-spacing: 0;
+  word-spacing: 0;
 }
 
 .font-jp-b {
@@ -49,6 +45,7 @@
   font-weight: 700;
   font-style: normal;
   letter-spacing: 0;
+  word-spacing: 0;
 }
 
 /* 한글 폰트 Asta Sans */
@@ -59,6 +56,7 @@
   font-weight: 400;
   font-style: normal;
   letter-spacing: 0;
+  word-spacing: 0;
 }
 
 .font-kr-b {
@@ -67,9 +65,18 @@
   font-weight: 700;
   font-style: normal;
   letter-spacing: 0;
+  word-spacing: 0;
 }
 
 /* 폰트 크기 관련 */
+
+.font-menu {
+    font-size: 16.5px;
+}
+
+.font-xxl {
+    font-size: 36px;
+}
 
 .font-xl {
     font-size: 24px;
@@ -80,15 +87,15 @@
 }
 
 .font-md {
-    font-size: 16px;
+    font-size: 15.5px;
 }
 
 .font-sm {
-    font-size: 15px;
+    font-size: 14px;
 }
 
 .font-xs {
-    font-size: 13.5px;
+    font-size: 13px;
 }
 
 /* 폰트 강조 */
@@ -105,7 +112,7 @@
     color: #f8f9fa;
 }
 
-/* 구분선 - 일반 */
+/* 구분선 */
 
 .width-line {
     display: block;
@@ -114,16 +121,6 @@
     background-color: #dddddd;
     margin: 25px auto;
 }
-
-.width-line-m-wide {
-    display: block;
-    width: 92.5%;
-    height: 0.2px;
-    background-color: #dddddd;
-    margin: 50px auto;
-}
-
-/* 구분선 - 갈색 */
 
 .width-line-brown {
     display: block;
@@ -175,7 +172,7 @@
 /* 콜아웃 */
 
 .call-out {
-    margin: 30px 45px;
+    margin: 30px 0;
     padding: 25px 40px;
     background-color: #fafafa;
     border: 2px solid #dddddd;
@@ -185,7 +182,7 @@
 /* 최신 업데이트 */
 
 .ffxi-updated {
-    margin: 30px 45px;
+    margin: 30px 0;
     padding: 25px 40px;
     background-color: #fffdf5;
     border: 2px solid #ffddbf;
@@ -223,4 +220,136 @@ body {
 
 .footer-margin-t {
     margin: 80px 0 0;
+}
+
+
+
+
+
+
+/* 여백 관련 (반응형 대응) */
+
+.ffxi-header {
+    padding: 10px 120px;
+    margin: 0;
+}
+
+.ffxi-template {
+    padding: 0 135px;
+    margin: 0;
+}
+
+.ffxi-title {
+    margin: 0 15px;
+}
+
+.ffxi-footer {
+    padding: 50px 120px;
+    margin: 50px 0 0;
+}
+
+/* 태블릿 대응 */
+
+@media screen and (max-width:1200px) {
+
+    /* 여백 */
+
+    .ffxi-header {
+        padding: 10px 70px;
+        margin: 0;
+    }
+
+    .ffxi-template {
+        padding: 0 70px;
+        margin: 0;
+    }
+
+    .ffxi-footer {
+        padding: 35px 70px;
+        margin: 50px 0 0;
+    }
+
+    /* 폰트 사이즈 */
+
+    .font-menu {
+        font-size: 15px;
+    }
+        
+    .font-xxl {
+        font-size: 32px;
+    }
+
+    .font-xl {
+        font-size: 22px;
+    }
+
+    .font-lg {
+        font-size: 18px;
+    }
+
+    .font-md {
+        font-size: 13px;
+    }
+
+    .font-sm {
+        font-size: 13px;
+    }
+
+    .font-xs {
+        font-size: 13px;
+    }
+
+}
+
+/* 모바일 대응 */
+
+@media screen and (max-width:665px) {
+
+    /* 여백 */
+
+    .ffxi-header {
+        padding: 8px 25px;
+        margin: 0;
+    }
+
+    .ffxi-template {
+        padding: 0 25px;
+        margin: 0;
+    }
+
+    .ffxi-footer {
+        padding: 30px 40px;
+        margin: 50px 0 0;
+    }
+
+    /* 폰트 사이즈 */
+
+    .font-menu {
+        font-size: 16.5px;
+    }
+        
+    .font-xxl {
+        font-size: 22px;
+    }
+
+    .font-xl {
+        font-size: 20px;
+    }
+
+    .font-lg {
+        font-size: 16px;
+    }
+
+    .font-md {
+        font-size: 14px;
+    }
+
+    .font-sm {
+        font-size: 14px;
+    }
+
+    .font-xs {
+        font-size: 14px;
+    }
+
 }
