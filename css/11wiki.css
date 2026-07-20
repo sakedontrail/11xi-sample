@@ -338,31 +338,35 @@ body {
     /* 본문 텍스트 박스 */
 
     .ffxi-guide {
-        width: 90%;
         padding: 5px 10px;
     }
 
     .ffxi-guide-100 {
-        width: 100%;
         padding: 5px 10px;
     }
 
     /* 구분선 */
 
     .width-line {
-        display: block;
-        width: 100%;
         height: 0.5px;
-        background-color: #dddddd;
-        margin: 25px auto;
     }
 
     .width-line-brown {
-        display: block;
-        width: 100%;
         height: 0.5px;
-        background-color: rgba(107, 64, 50, 0.2);
-        margin: 25px auto;
+    }
+
+    /* 콜아웃 */
+
+    .call-out {
+        padding: 25px 30px;
+        border-radius: 15px;
+    }
+
+    /* 최신 업데이트 */
+
+    .ffxi-updated {
+        padding: 25px 30px;
+        border-radius: 15px;
     }
 
 }
@@ -420,33 +424,23 @@ body {
     /* 본문 텍스트 박스 */
 
     .ffxi-guide {
-        width: 90%;
         padding: 0px 5px;
     }
 
     .ffxi-guide-100 {
-        width: 100%;
         padding: 0px 5px;
     }
 
     /* 구분선 */
 
     .width-line {
-        display: block;
-        width: 100%;
-        height: 0.75px;
-        background-color: #dddddd;
-        margin: 25px auto;
+
+        height: 0.8px;
     }
 
     .width-line-brown {
-        display: block;
-        width: 100%;
-        height: 0.75px;
-        background-color: rgba(107, 64, 50, 0.2);
-        margin: 25px auto;
+        height: 0.8px;
     }
-
 }
 
 /* 와이드 모니터 */
