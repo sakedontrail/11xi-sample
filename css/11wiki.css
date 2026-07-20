@@ -8,7 +8,7 @@
 
 /* 폰트 임포트 */
 
-@import url('https://fonts.googleapis.com/css2?family=Asta+Sans:wght@300..800&family=Lato:wght@400;700&family=Murecho:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@400;700&family=Lato:wght@400;700&family=Murecho:wght@100..900&display=swap');
 
 /* 영문 폰트 Lato */
 
@@ -52,11 +52,10 @@
   line-height: 1.5;
 }
 
-/* 한글 폰트 Asta Sans */
+/* 한글 폰트 IBM Plex Sans KR */
 
 .font-kr-r {
-  font-family: "Asta Sans", sans-serif;
-  font-optical-sizing: auto;
+  font-family: "IBM Plex Sans KR", sans-serif;
   font-weight: 400;
   font-style: normal;
   letter-spacing: 0;
@@ -65,8 +64,7 @@
 }
 
 .font-kr-b {
-  font-family: "Asta Sans", sans-serif;
-  font-optical-sizing: auto;
+  font-family: "IBM Plex Sans KR", sans-serif;
   font-weight: 700;
   font-style: normal;
   letter-spacing: 0;
