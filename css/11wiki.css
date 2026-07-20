@@ -339,7 +339,30 @@ body {
 
     .ffxi-guide {
         width: 90%;
-        padding: 2.5px 15px;
+        padding: 5px 10px;
+    }
+
+    .ffxi-guide-100 {
+        width: 100%;
+        padding: 5px 10px;
+    }
+
+    /* 구분선 */
+
+    .width-line {
+        display: block;
+        width: 100%;
+        height: 1px;
+        background-color: #dddddd;
+        margin: 25px auto;
+    }
+
+    .width-line-brown {
+        display: block;
+        width: 100%;
+        height: 1px;
+        background-color: rgba(107, 64, 50, 0.2);
+        margin: 25px auto;
     }
 
 }
@@ -375,7 +398,7 @@ body {
     }
 
     .font-xl {
-        font-size: 20px;
+        font-size: 18px;
     }
 
     .font-lg {
@@ -397,8 +420,31 @@ body {
     /* 본문 텍스트 박스 */
 
     .ffxi-guide {
-        width: 95%;
-        padding: 0 15px;
+        width: 90%;
+        padding: 0px 5px;
+    }
+
+    .ffxi-guide-100 {
+        width: 100%;
+        padding: 0px 5px;
+    }
+
+    /* 구분선 */
+
+    .width-line {
+        display: block;
+        width: 100%;
+        height: 1.8px;
+        background-color: #dddddd;
+        margin: 25px auto;
+    }
+
+    .width-line-brown {
+        display: block;
+        width: 100%;
+        height: 1.8px;
+        background-color: rgba(107, 64, 50, 0.2);
+        margin: 25px auto;
     }
 
 }
