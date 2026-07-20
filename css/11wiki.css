@@ -358,14 +358,14 @@ body {
     /* 콜아웃 */
 
     .call-out {
-        padding: 25px 30px;
+        padding: 25px 25px;
         border-radius: 15px;
     }
 
     /* 최신 업데이트 */
 
     .ffxi-updated {
-        padding: 25px 30px;
+        padding: 25px 25px;
         border-radius: 15px;
     }
 
