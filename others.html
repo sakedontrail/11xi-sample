@@ -17,7 +17,7 @@
 <body>
 
     <!-- 상단 메뉴 바 -->
-    <header class="ffxi-text sticky-top bg-light">
+    <header class="ffxi-text bg-light">
         <div class="navbar navbar-expand-lg ffxi-header widscreen">
             <a class="navbar-brand ms-2 my-1" href="./index.html" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-title="메인 페이지로"><img src="./icon/icon_11wiki.png" width="40px"></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarFfxi" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -91,6 +91,16 @@
             </a>
             <div class="bg-light">
                 <div class="ffxi-footer widscreen">
+                    <div class="mb-4">
+                        <p class="font-kr-b font-md ms-2 mb-2">◆ FF11 공식 홈페이지 바로가기</p>
+                        <a href="https://www.playonline.com/ff11/" class="link-none-btn" target="_blank">
+                            <button class="btn btn-outline-dark border-1 rounded-pill font-kr-b font-sm mb-4 py-1 px-3"><i class="bi bi-bookmarks"></i>&nbsp;FF11 일본 공식 홈페이지</button>
+                        </a>
+                        &nbsp;
+                        <a href="https://www.playonline.com/ff11us/" class="link-none-btn" target="_blank">
+                            <button class="btn btn-outline-dark border-1 rounded-pill font-kr-b font-sm mb-4 py-1 px-3"><i class="bi bi-bookmarks-fill"></i>&nbsp;FF11 영문 공식 홈페이지</button>
+                        </a>
+                    </div>
                     <p>
                         <span class="font-sm font-kr-b">본 사이트에 관련된 문의 혹은 요청은 <span class="font-sm font-en-b text-readme">cry5741.g4rd3n@gmail.com</span>로 연락을 남겨주세요.</span>
                         <br>
@@ -111,11 +121,29 @@
         </div>
     </footer>
 
+    <!-- 스크롤탑 버튼 -->
+    <button onclick="topFunction()" class="top-btn"><i class="bi bi-arrow-up-circle-fill"></i></button>
+
+    <!-- JS -->
     <script src="./js/bootstrap.bundle.js"></script>
     <script src="./js/11wiki.js"></script>
+    
     <script>
         const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
         const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
+    </script>
+
+    <script>
+        let topBtn = document.getElementById("topBtn");
+
+        window.onscroll = function() {
+            scrollFunction();
+        };
+
+        function topFunction() {
+            document.body.scrollTop = 0; // For Safari
+            document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+        }
     </script>
 </body>
 </html>
