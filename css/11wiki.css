@@ -12,6 +12,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@400;700&family=Lato:wght@400;700&family=Murecho:wght@100..900&display=swap');
 
+
 /* 영문 폰트 Lato */
 
 .font-en-r {
@@ -31,6 +32,7 @@
   word-spacing: 0;
   line-height: 1.5;
 }
+
 
 /* 일본어 폰트 Murecho */
 
@@ -53,6 +55,7 @@
   word-spacing: 0;
   line-height: 1.5;
 }
+
 
 /* 한글 폰트 IBM Plex Sans KR */
 
