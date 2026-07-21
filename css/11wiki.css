@@ -324,6 +324,27 @@ body {
     filter: drop-shadow(0 0 2px #5d3400);
 }
 
+
+/* 미션 선택 */
+
+.ffxi-mission:hover:before {
+    content: "➤ ";
+}
+
+
+/* 미션 준비중 */
+
+.ffxi-mission-disable {
+    color: #aaaaaa;
+}
+
+.ffxi-mission-disable:hover {
+    background-color: #f1f1f1 !important;
+    color: #aaaaaa !important;
+}
+
+
+
 /* 여백 관련 (반응형 대응) */
 
 .ffxi-header {
