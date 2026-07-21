@@ -1,3 +1,4 @@
+
 /* 기본 사이트 서식 */
 
 .ffxi-text::selection {
@@ -6,9 +7,11 @@
     background-color: #212529;
 }
 
+
 /* 폰트 임포트 */
 
-@import url('https://fonts.googleapis.com/css2?family=Asta+Sans:wght@300..800&family=Lato:wght@400;700&family=Murecho:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@400;700&family=Lato:wght@400;700&family=Murecho:wght@100..900&display=swap');
+
 
 /* 영문 폰트 Lato */
 
@@ -29,6 +32,7 @@
   word-spacing: 0;
   line-height: 1.5;
 }
+
 
 /* 일본어 폰트 Murecho */
 
@@ -52,27 +56,27 @@
   line-height: 1.5;
 }
 
-/* 한글 폰트 Asta Sans */
+
+/* 한글 폰트 IBM Plex Sans KR */
 
 .font-kr-r {
-  font-family: "Asta Sans", sans-serif;
-  font-optical-sizing: auto;
+  font-family: "IBM Plex Sans KR", sans-serif;
   font-weight: 400;
   font-style: normal;
   letter-spacing: 0;
-  word-spacing: 1.25px;
+  word-spacing: 0;
   line-height: 1.5;
 }
 
 .font-kr-b {
-  font-family: "Asta Sans", sans-serif;
-  font-optical-sizing: auto;
+  font-family: "IBM Plex Sans KR", sans-serif;
   font-weight: 700;
   font-style: normal;
   letter-spacing: 0;
   word-spacing: 0;
   line-height: 1.5;
 }
+
 
 /* 폰트 크기 관련 */
 
@@ -104,6 +108,7 @@
     font-size: 13px;
 }
 
+
 /* 폰트 강조 */
 
 .text-readme {
@@ -111,12 +116,14 @@
     padding: 2px;
 }
 
+
 /* 서브 메뉴 호버 */
 
 .drop-hover:hover {
     background-color: #212529;
     color: #f8f9fa;
 }
+
 
 /* 구분선 */
 
@@ -136,6 +143,7 @@
     margin: 25px auto;
 }
 
+
 /* 폰트 커스텀 색상 */
 
 .text-gray {
@@ -150,11 +158,13 @@
     color: #6b4032;
 }
 
+
 /* 테두리 커스텀 색상 */
 
 .border-brown {
     border-color: #6b4032;
 }
+
 
 /* 버튼 커스텀 */
 
@@ -166,6 +176,7 @@
     background-color: #6b4032;
     color: #fffdf5;
 }
+
 
 /* 이미지 관련 - 사이즈, 테두리 */
 
@@ -190,6 +201,7 @@
     border-radius: 20px;
 }
 
+
 /* 콜아웃 */
 
 .call-out {
@@ -199,6 +211,7 @@
     border: 2px solid #dddddd;
     border-radius: 20px;
 }
+
 
 /* 최신 업데이트 */
 
@@ -211,6 +224,7 @@
     color: #6b4032;
 }
 
+
 /* 목차 카운터 */
 
 body {
@@ -221,6 +235,7 @@ body {
     counter-increment: my-sec-counter;
     content: counter(my-sec-counter) ". ";
 }
+
 
 /* 링크 서식 지우기 & 목차 호버 */
 
@@ -241,6 +256,7 @@ body {
     text-decoration: none;
 }
 
+
 /* 본문 텍스트 박스 */
 
 .ffxi-guide {
@@ -253,15 +269,12 @@ body {
     padding: 15px 20px;
 }
 
+
 /* 하단부 상단 마진 */
 
 .footer-margin-t {
     margin: 80px 0 0;
 }
-
-
-
-
 
 
 /* 여백 관련 (반응형 대응) */
@@ -328,7 +341,7 @@ body {
     }
 
     .font-sm {
-        font-size: 13px;
+        font-size: 14px;
     }
 
     .font-xs {
@@ -338,8 +351,35 @@ body {
     /* 본문 텍스트 박스 */
 
     .ffxi-guide {
-        width: 90%;
-        padding: 2.5px 15px;
+        padding: 5px 10px;
+    }
+
+    .ffxi-guide-100 {
+        padding: 5px 10px;
+    }
+
+    /* 구분선 */
+
+    .width-line {
+        height: 0.5px;
+    }
+
+    .width-line-brown {
+        height: 0.5px;
+    }
+
+    /* 콜아웃 */
+
+    .call-out {
+        padding: 25px 25px;
+        border-radius: 15px;
+    }
+
+    /* 최신 업데이트 */
+
+    .ffxi-updated {
+        padding: 25px 25px;
+        border-radius: 15px;
     }
 
 }
@@ -375,7 +415,7 @@ body {
     }
 
     .font-xl {
-        font-size: 20px;
+        font-size: 18px;
     }
 
     .font-lg {
@@ -387,20 +427,33 @@ body {
     }
 
     .font-sm {
-        font-size: 14px;
+        font-size: 13.5px;
     }
 
     .font-xs {
-        font-size: 14px;
+        font-size: 12px;
     }
 
     /* 본문 텍스트 박스 */
 
     .ffxi-guide {
-        width: 95%;
-        padding: 0 15px;
+        padding: 0px 5px;
     }
 
+    .ffxi-guide-100 {
+        padding: 0px 5px;
+    }
+
+    /* 구분선 */
+
+    .width-line {
+
+        height: 0.75px;
+    }
+
+    .width-line-brown {
+        height: 0.75px;
+    }
 }
 
 /* 와이드 모니터 */
