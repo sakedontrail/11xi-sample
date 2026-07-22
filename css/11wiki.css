@@ -10,7 +10,7 @@
 
 /* 폰트 임포트 */
 
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@400;700&family=Lato:wght@400;700&family=Murecho:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@400;700&family=Lato:wght@400;700&family=Zen+Kaku+Gothic+New:wght@400;700&display=swap');
 
 
 /* 영문 폰트 Lato */
@@ -34,10 +34,10 @@
 }
 
 
-/* 일본어 폰트 Murecho */
+/* 일본어 폰트 Zen Kaku Gothic New */
 
 .font-jp-r {
-  font-family: "Murecho", sans-serif;
+  font-family: "Zen Kaku Gothic New", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
@@ -47,7 +47,7 @@
 }
 
 .font-jp-b {
-  font-family: "Murecho", sans-serif;
+  font-family: "Zen Kaku Gothic New", sans-serif;
   font-optical-sizing: auto;
   font-weight: 700;
   font-style: normal;
@@ -55,7 +55,6 @@
   word-spacing: 0;
   line-height: 1.5;
 }
-
 
 /* 한글 폰트 IBM Plex Sans KR */
 
@@ -202,6 +201,21 @@
 }
 
 
+/* 지도 */
+
+.ffxi-img-map {
+    display: block;
+    width: 80%;
+    margin: auto;
+}
+
+.ffxi-img-map-modal {
+    display: block;
+    width: 100%;
+    margin: auto;
+}
+
+
 /* 콜아웃 */
 
 .call-out {
@@ -221,6 +235,47 @@
     color: #6b4032;
 }
 
+.call-out-mission {
+    margin: 16.5px 0;
+    padding: 25px 20px;
+    background-color: #fafafa;
+    border: 2px solid #dddddd;
+    border-radius: 20px;
+}
+
+
+/* 이전&다음 미션 바로가기 */
+
+.ffxi-mission-go {
+    margin: 16.5px 0;
+    padding: 25px 40px;
+    border: 2px solid #dddddd;
+    border-radius: 10px;
+    text-decoration: none;
+    color: #212529;
+}
+
+.ffxi-mission-go:hover {
+    background-color: #f1f1f1;
+    border: 2px solid #bbbbbb;
+}
+
+.ffxi-mission-go-none {
+    margin: 16.5px 0;
+    padding: 25px 40px;
+    border: 2px dotted #dddddd;
+    border-radius: 10px;
+    text-decoration: none;
+    color: #999999;
+}
+
+
+/* 미션 기본 정보 */
+
+.mission-info {
+    margin: 4.5px 0;
+}
+
 
 /* 목차 카운터 */
 
@@ -233,6 +288,16 @@ body {
     content: counter(my-sec-counter) ". ";
 }
 
+
+/* 미션 하위 설명 */
+
+.ffxi-wiki-sub {
+    display: inline-block;
+}
+
+.ffxi-wiki-sub::before {
+    content: "⦁ ";
+}
 
 /* 링크 서식 지우기 & 목차 호버 */
 
@@ -316,7 +381,6 @@ body {
     padding: 0 4px 0 2px;
     background-color: #e9e2d9;
     color: #212529;
-    font-weight: 700;
 }
 
 .key-item::before {
